@@ -53,11 +53,12 @@ Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 
-Developed by: HARIHARAN A
+Developed by: J NETHRAA
 
-RegisterNumber: 212222100012
+RegisterNumber: 212222100031
+
 */
-```python
+python
 module gates (a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -69,7 +70,7 @@ nand (y5,a,b);
 nor (y6,a,b);
 xnor (y7,a,b);
 endmodule
-```
+
 ### Logic symbol & Truthtable
 ![image](https://user-images.githubusercontent.com/118343401/234768078-70defde8-33a6-4293-b4b2-d8a6dee147d0.png)
 
@@ -82,4 +83,4 @@ endmodule
 ![image](https://user-images.githubusercontent.com/118343401/234768204-66208f56-7d29-4dff-baa8-fb431f2612db.png)
 
 Result:
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
